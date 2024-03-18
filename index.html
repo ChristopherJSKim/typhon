@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Typhon Quiz</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+
+        <form>
+            <h1>Typhon Quiz</h1>
+            <div>
+                <label for="questionOne">What is your rank in CS2?</label>
+                <input type="text" name="questionOne" placeholder="Answer" id="questionOne"><br> 
+            </div>
+            <div>
+                <label for="questionTwo">Do you like Typhon?</label>
+                <input type="text" name="questionTwo" placeholder="Answer" id="questionTwo"><br>
+            </div>
+            <div>
+                <label for="questionThree">Do you like sniffing shit?</label>
+                <input type="text" name="questionThree" placeholder="Answer" id="questionThree"><br>
+            </div>
+            <button onclick="gradeDat(event)" id="submitDat">Submit</button>
+            <p id="scoreQuiz"></p>
+        </form>
+
+        <script src="scripts.js" async defer></script>
+    </body>
+</html>
